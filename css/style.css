@@ -19,6 +19,9 @@ body {
     font-family: 'Barlow Semi Condensed', sans-serif;
     font-size: 13px;
     background-color: var(--Light-grayish-blue);
+    min-height: 100vh;
+    display: grid;
+    place-content: center;
 }
 
 main {
@@ -26,7 +29,7 @@ main {
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     grid-template-rows: auto auto;
     grid-gap: 20px;
-    width: calc(100% - 40px);
+    max-width: calc(100% - 40px);
     margin: auto;
     margin-top: 30px;
     height: fit-content;
